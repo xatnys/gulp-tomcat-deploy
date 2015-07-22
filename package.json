@@ -1,0 +1,36 @@
+{
+  "name": "gulp-tomcat-deploy",
+  "version": "0.0.1",
+  "description": "For deployment of WAR files to a Tomcat server.",
+  "license": "MIT",
+  "repository": "xatnys/gulp-tomcat-deploy",
+  "author": {
+    "name": "SNera",
+    "email": "xatnys@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "tomcat",
+    "deploy",
+    "war",
+    "warfile",
+    "http"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "object-assign": "^2.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
